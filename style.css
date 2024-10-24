@@ -1,0 +1,206 @@
+body {
+    font-family: 'Minecraft', sans-serif; 
+    background-color: #181818; 
+    color: #eee; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #49e1e9cd; 
+    padding: 1em;
+    text-align: left;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ffffff; 
+  }
+  
+  nav {
+    background-color: #222; 
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 1em;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #eee; 
+    padding: 0.5em 1em;
+    border-bottom: 3px solid transparent; 
+    transition: border-bottom-color 0.3s ease; 
+  }
+  
+  nav a.active {
+    border-bottom-color: #5dabff; 
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  section {
+    display: none; 
+    padding: 1em;
+    background-color: #222;
+    border: 2px solid #57a4f6; 
+    border-radius: 5px;
+  }
+  
+  section.active { 
+    display: block;
+  }
+  
+  footer {
+    background-color: #222; 
+    padding: 1em;
+    text-align: center;
+  }
+#home {
+  display: block; 
+  padding: 1em;
+  background-color: #222;
+  border: 2px solid #5dabff;
+  border-radius: 5px;
+}
+
+#home img {
+  width: 300px; 
+  height: auto;
+  display: block; 
+  margin: 1em auto; 
+}
+
+
+#home {
+  display: block; 
+  padding: 2em;
+  background-color: #222;
+  border: 2px solid #5dabff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#home img {
+  width: 300px; 
+  height: auto;
+  display: block;
+  margin: 2em auto;
+}
+
+.hidden {
+  display: none;
+}
+
+#crafting .crafting-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+  gap: 20px;
+}
+#crafting .item {
+  text-align: center;
+}
+#crafting .item img {
+  width: 100px; 
+  height: auto;
+  margin-bottom: 10px;
+}
+#crafting .crafting-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 20px;
+}
+
+#crafting .item {
+  text-align: center;
+}
+
+#crafting .item img {
+  width: 150px; 
+  height: auto;
+  margin-bottom: 10px;
+}
+#home {
+  display: block; 
+  padding: 2em;
+  background-color: #222;
+  border: 2px solid #5dabff; 
+  border-radius: 5px;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+#crafting .crafting-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+#crafting .item {
+  text-align: center;
+}
+#crafting .item img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+#home {
+  display: block; 
+  padding: 2em;
+  background-color: #222;
+  border: 2px solid #5dabff; 
+  border-radius: 5px;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+#crafting .crafting-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+#crafting .item {
+  text-align: center;
+}
+#crafting .item img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+@font-face {
+  font-family: 'Minecrafter'; /* Nome da fonte */
+  src: url('images/Minecrafter.Alt.ttf') format('truetype');
+}
+h1 {
+  font-family: 'Minecrafter', sans-serif; 
+  margin: 0;
+  font-size: 2em;
+}
+#download button {
+  background-color: #007bff; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+nav li img {
+  width: 20px; 
+  height: auto;
+  margin-right: 5px; 
+}
